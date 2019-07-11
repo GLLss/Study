@@ -1,6 +1,6 @@
-# Table of contents
+# NSQ
 
-* [NSQ学习](README.md)
+* [NSQ学习](./)
 
 ## golang
 
