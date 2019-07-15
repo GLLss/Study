@@ -51,7 +51,7 @@ func main() {
 
 ```
 
-### 结果
+#### 结果
 
 ```text
 ...
@@ -72,7 +72,7 @@ created by main.main
 exit status 2
 ```
 
-### 结论
+#### 结论
 
 * 已经close的channel不能写数据，否则panic
 * 已经chose的channel人然可以读数据，读出的数据为对应类型的空值和关闭标识false
@@ -100,7 +100,7 @@ func channelSelect(a chan int) {
 }
 ```
 
-### 结果：
+#### 结果：
 
 ```text
 ...
@@ -112,7 +112,7 @@ func channelSelect(a chan int) {
 a = nil ......
 ```
 
-### 结论：
+#### 结论：
 
 * channel为nil时，读写都会阻塞，因此select也不会进入此case
 * 使用nil的好处就是不会迭代读取，禁用一个从channel读取数据的case，避免繁忙循环，提高性能
