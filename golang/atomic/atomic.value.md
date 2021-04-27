@@ -229,3 +229,5 @@ func (v *Value) Load() (x interface{}) {
 
 文章出处：[https://blog.betacat.io/post/golang-atomic-value-exploration/](https://blog.betacat.io/post/golang-atomic-value-exploration/)
 
+
+##  你好 
